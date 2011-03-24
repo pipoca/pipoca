@@ -25,6 +25,10 @@
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
 	</bean>
 	
+	<bean id="personDao" class="net.wasskog.pipoca.web.data.dao.jpa.PersonDaoJPAImp">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+	
 	<bean class="net.wasskog.pipoca.web.DataInitialiser" init-method="dataInit">
 		<property name="eventDao" ref="eventDao"></property>
 	</bean>

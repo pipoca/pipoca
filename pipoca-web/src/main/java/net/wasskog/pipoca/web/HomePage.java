@@ -5,6 +5,7 @@ import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.link.BookmarkablePageLink;
 
 import net.wasskog.pipoca.web.pages.EventPage;
+import net.wasskog.pipoca.web.pages.PersonPage;
 
 /**
  * @author Richard Wilkinson - richard.wilkinson@jweekend.com
@@ -24,7 +25,7 @@ public class HomePage extends WebPage {
 
         // Add the simplest type of label
         add(new BookmarkablePageLink<Void>("event", EventPage.class));
-        
+        add(new BookmarkablePageLink<Void>("person", PersonPage.class));
         
     }
 }

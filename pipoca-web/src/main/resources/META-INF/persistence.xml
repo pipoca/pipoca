@@ -11,6 +11,7 @@
 
 		<!-- JPA entities must be registered here -->
 		<class>net.wasskog.pipoca.web.data.dataobjects.Event</class>
+		<class>net.wasskog.pipoca.web.data.dataobjects.Person</class>
 
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
